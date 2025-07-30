@@ -7,6 +7,11 @@ const DrinkCards = () => {
     <div className='drink-cards-container'>
       <div className="drink-cards-grid">
         <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
       </div>
     </div>
   )

@@ -11,3 +11,12 @@
   margin: 20px;
   height: 100vh;
 }
+
+.drink-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+  gap: 10px;
+  width: 80%;  /* Reduce width to allow for centering */
+  margin: 0 auto;  /* Center the grid horizontally */
+  justify-content: center;  /* Center grid items */
+}
