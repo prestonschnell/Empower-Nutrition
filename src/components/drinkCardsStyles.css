@@ -1,0 +1,13 @@
+
+
+/* Basically, we need to use CSS grid and flexbox to be able to make a small menu of the most popular drinks of the month. */
+/* After this, we're going to display a graphic or gif displaying an aesthetic. She needs a brand identity. */
+
+
+.drink-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  height: 100vh;
+}

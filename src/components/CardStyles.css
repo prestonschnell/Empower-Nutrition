@@ -1,0 +1,33 @@
+
+/* This is for our card components.
+Basically we're making space for our images that will fit in a small container.
+Each list element will fit in a column, except for the buttons which will be their own div separated by a space between. */
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+.drink-card {
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.drink-card img {
+    height: 35vh;
+    width: auto;
+    display: block;
+}
+
+.button-container {
+    gap: 20px;
+    display: flex;
+}
