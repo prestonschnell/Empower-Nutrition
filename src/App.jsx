@@ -12,6 +12,9 @@ function App() {
       <Nav />
       <Hero />
       <DrinkCards />
+      {/* <SmoothieGraphic /> */}
+      {/* <Menu/> */}
+      {/* <Footer /> */}
       </div>
     </>
   )

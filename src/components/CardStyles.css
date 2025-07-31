@@ -8,23 +8,40 @@ Each list element will fit in a column, except for the buttons which will be the
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* gap: 20px; */
 }
 
 .drink-card {
-    height: 100%;
-    width: 20vw;
+    height: auto; /* Adjusted for better responsiveness */
+    min-height: 300px; /* Ensures a minimum height for the card */
+    width: 100%; /* Adjusted for better responsiveness */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: #333;
+    font-family: 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    text-align: center;
     margin-bottom: 50px;
 }
 
 .drink-card img {
     height: 35vh;
     width: auto;
+    display: block;
+}
+
+.drink-card p {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.drink-card h3 {
     display: block;
 }
 
