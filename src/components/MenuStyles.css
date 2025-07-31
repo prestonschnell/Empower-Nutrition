@@ -1,0 +1,17 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.drink-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 80%;  /* Reduce width to allow for centering */
+  margin: 0 auto;  /* Center the grid horizontally */
+  justify-content: center;  /* Center grid items */
+  align-items: center;
+}
